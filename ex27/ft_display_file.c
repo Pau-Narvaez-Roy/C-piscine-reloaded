@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_display_file.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pnarvaez <pnarvaez@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pnarvaez <pnarvaez@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 12:38:36 by pnarvaez          #+#    #+#             */
-/*   Updated: 2026/05/21 15:27:45 by pnarvaez         ###   ########.fr       */
+/*   Updated: 2026/05/25 17:38:21 by pnarvaez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 void	ft_putstr(char *str)
 {
 	while (*str)
-		write(1, str++, 1);
+		write(2, str++, 1);
 }
 
 void	ft_read(char *str)
